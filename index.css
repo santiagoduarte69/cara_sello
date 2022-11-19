@@ -1,0 +1,18 @@
+.contenido-card {
+  display: flex;
+  margin-bottom: 100px;
+  align-items: flex-end;
+}
+
+.card-one {
+  margin-left: 26%;
+  margin-right: 17%;
+}
+
+h1 {
+  margin-bottom: 100px !important;
+}
+
+.form {
+  margin: 10px 10px !important;
+}

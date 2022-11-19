@@ -1,0 +1,71 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body>
+  
+    <center><h1>Hola usuario, escoge cara o sello</h1></center>
+<div class="contenido-card">
+    
+    <div class="card card-one" style="width: 16rem;">
+      <img src="cara.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <center><h5 class="card-title">Cara</h5></center>
+      </div>
+    </div>
+
+    <div class="card" style="width: 16rem;">
+      <img src="sello.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <center><h5 class="card-title">Sello</h5></center>
+      </div>
+    </div>
+  </div>
+
+
+  <form>
+    <div class="form-group row " style="margin-bottom: 10px;">
+      <label for="inputEmail3" class="col-sm-2 col-form-label">Dinero a apostar</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="inputEmail3" placeholder="Ejemplo: 5000">
+      </div>
+    </div>
+
+    <fieldset class="form-group">
+      <div class="row">
+        <legend class="col-form-label col-sm-2 pt-0">Escoge:</legend>
+        <div class="col-sm-10">
+          <div class="form-check ">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+            <label class="form-check-label" for="gridRadios1">
+              Cara
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+            <label class="form-check-label" for="gridRadios2">
+              Sello
+            </label>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+
+
+    <div class="form-group row">
+      <div class="col-sm-10">
+        <button type="submit" class="btn btn-primary">Jugar</button>
+      </div>
+    </div>
+  </form>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
